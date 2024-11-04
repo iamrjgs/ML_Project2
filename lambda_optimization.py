@@ -119,9 +119,9 @@ for lambdaval in lambdas:
 
     print('\n############## Running lambda: ' + str(lambdaval) + '....')
 
-    N = 1000
-    train_data = train_data[:N]
-    train_label = train_label[:N]
+    # N = 1000
+    # train_data = train_data[:N]
+    # train_label = train_label[:N]
 
     starttime = time.time()
 
