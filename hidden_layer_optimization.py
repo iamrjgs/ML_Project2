@@ -152,8 +152,5 @@ for hidden_units in hidden_units_list:
     predicted_label = nnPredict(w1, w2, validation_data)
     print('Validation set Accuracy:' + str(100 * np.mean((predicted_label == validation_label).astype(float))) + '%')
 
-    predicted_label = nnPredict(w1, w2, test_data)
-    print('Test set Accuracy:' + str(100 * np.mean((predicted_label == test_label).astype(float))) + '%')
-
     runtime = time.time() - starttime
     print('Runtime: ' + str(runtime) + ' sec\n')
