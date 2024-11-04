@@ -1,0 +1,81 @@
+############## Running lambda: 0.0....
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 0.251433
+         Iterations: 150
+         Function evaluations: 323       
+         Gradient evaluations: 323
+Training set Accuracy:96.65%
+Validation set Accuracy:94.34%
+Runtime: 4796.641691207886 sec
+
+preprocess done
+
+############## Running lambda: 10.0....
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 0.295320
+         Iterations: 150
+         Function evaluations: 305
+         Gradient evaluations: 305
+Training set Accuracy:96.232%
+Validation set Accuracy:95.14%
+Runtime: 4780.13468003273 sec
+
+preprocess done
+
+############## Running lambda: 20.0....
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 0.405071
+         Iterations: 120
+         Function evaluations: 282
+         Gradient evaluations: 270
+Training set Accuracy:94.65%
+Validation set Accuracy:93.96%
+Runtime: 4383.789582967758 sec
+
+preprocess done
+
+############## Running lambda: 30.0....
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 0.403544
+         Iterations: 149
+         Function evaluations: 364
+         Gradient evaluations: 353
+Training set Accuracy:94.892%
+Validation set Accuracy:94.66%
+Runtime: 5785.3310968875885 sec
+
+preprocess done
+
+############## Running lambda: 40.0....
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 0.451235
+         Iterations: 107
+         Function evaluations: 263
+         Gradient evaluations: 251
+Training set Accuracy:94.308%
+Validation set Accuracy:93.14%
+Runtime: 4111.096116304398 sec
+
+preprocess done
+
+############## Running lambda: 50.0....
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 0.495104
+         Iterations: 78
+         Function evaluations: 230
+         Gradient evaluations: 218
+Training set Accuracy:93.598%
+Validation set Accuracy:92.58999999999999%
+Runtime: 3599.2393720149994 sec
+
+preprocess done
+
+############## Running lambda: 60.0....
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 0.524237
+         Iterations: 85
+         Function evaluations: 243
+         Gradient evaluations: 231
+Training set Accuracy:93.434%
+Validation set Accuracy:92.78999999999999%
+Runtime: 3825.127621412277 sec

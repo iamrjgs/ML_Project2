@@ -1,0 +1,62 @@
+metallica {~} > /util/bin/python3.4 /home/mdygrad/rgarcia7/hidden_layer_optimization.py
+preprocess done
+
+############## Running hidden units: 4....
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 1.037520
+         Iterations: 150
+         Function evaluations: 262
+         Gradient evaluations: 262
+Training set Accuracy:81.784%
+Validation set Accuracy:80.74%
+Runtime: 4634.424683094025 sec
+
+preprocess done
+
+############## Running hidden units: 8....
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 0.475216
+         Iterations: 150
+         Function evaluations: 301
+         Gradient evaluations: 301
+Training set Accuracy:92.91%
+Validation set Accuracy:91.15%
+Runtime: 4749.635639429092 sec
+
+preprocess done
+
+############## Running hidden units: 12....
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 0.389661
+         Iterations: 150
+         Function evaluations: 303
+         Gradient evaluations: 303
+Training set Accuracy:94.444%
+Validation set Accuracy:92.09%
+Runtime: 4851.511651992798 sec
+
+preprocess done
+
+############## Running hidden units: 16....
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 0.327342
+         Iterations: 150
+         Function evaluations: 307
+         Gradient evaluations: 307
+Training set Accuracy:95.394%
+Validation set Accuracy:93.58%
+Runtime: 5545.911102056503 sec
+
+preprocess done
+
+############## Running hidden units: 20....
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 0.239287
+         Iterations: 150
+         Function evaluations: 301
+         Gradient evaluations: 301
+Training set Accuracy:96.944%
+Validation set Accuracy:94.64%
+Runtime: 5683.456398487091 sec
+
+metallica {~} > 
