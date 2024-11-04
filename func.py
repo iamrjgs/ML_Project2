@@ -273,6 +273,8 @@ def nnObjFunction(params, *args):
 
         return single_grad_w1
     
+    #------------------------ COMPUTATION STARTS HERE --------------------------------------------------# 
+    
     # Encode training true labels in 1 of K scheme
     encoded_training_label = np.array([encode_label(label) for label in training_label])
 
@@ -307,6 +309,6 @@ def nnObjFunction(params, *args):
 
     obj_grad = np.concatenate((grad_w1.flatten(), grad_w2.flatten()), 0)
 
-    print("Total loss = {val:.4f}......".format(val=obj_val))
+    # print("Total loss = {val:.4f}......".format(val=obj_val))
 
     return (obj_val, obj_grad)
